@@ -1,7 +1,10 @@
 document.addEventListener('DOMContentLoaded', () => {
     const grid = document.getElementById('portfolio-grid');
     const searchInput = document.getElementById('search-input');
+    const tabBtns = document.querySelectorAll('.tab-btn');
+    
     let searchQuery = '';
+    let currentTab = 'all';
 
     // Render Project Cards
     const renderProjects = (items) => {
@@ -47,6 +50,14 @@ document.addEventListener('DOMContentLoaded', () => {
     const updateView = () => {
         let filtered = projects;
         
+        // Filter by Tab
+        if (currentTab === 'ai') {
+            filtered = filtered.filter(p => p.isAI);
+        } else if (currentTab === 'core') {
+            filtered = filtered.filter(p => !p.isAI);
+        }
+
+        // Filter by Search
         if (searchQuery) {
             const q = searchQuery.toLowerCase();
             filtered = filtered.filter(p => 
@@ -59,7 +70,17 @@ document.addEventListener('DOMContentLoaded', () => {
         renderProjects(filtered);
     };
 
-    // Listeners
+    // Tab Listeners
+    tabBtns.forEach(btn => {
+        btn.addEventListener('click', () => {
+            tabBtns.forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+            currentTab = btn.dataset.tab;
+            updateView();
+        });
+    });
+
+    // Search Listeners
     if (searchInput) {
         searchInput.addEventListener('input', (e) => {
             searchQuery = e.target.value;
