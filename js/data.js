@@ -3,383 +3,343 @@ const projects = [
         id: 1,
         name: "Accelevent",
         domain: "EventTech",
-        description: "Accelevents is a comprehensive event management platform that simplifies hosting virtual, hybrid, and in-person events. With customizable features for registration, engagement, and analytics, it empowers organizers to create seamless event experiences.",
+        description: "A comprehensive event management platform that simplifies hosting virtual, hybrid, and in-person events. With customizable features for registration, engagement, and analytics, it empowers organizers to create seamless event experiences.",
         url: "https://drive.google.com/file/d/1eqEMRQlF4oqM2O2donMtosSPpnwfYR7d/view?usp=sharing",
-        color: "linear-gradient(135deg, #FF6B6B, #FF8E53)"
+        color: "linear-gradient(135deg, #017eeb, #00dbd3)"
     },
     {
         id: 2,
         name: "Vugo Advertisment",
         domain: "E-Commerce",
         description: "We transformed an e-commerce platform by adding intuitive features and refining user experience. The result? More engaged customers, higher conversions, and a seamless shopping journey that drives sales.",
-        url: "https://drive.google.com/file/d/1L2HWS31xgsMljZMOiEPBkEWEBgnr_idY/view?usp=drive_link",
-        color: "linear-gradient(135deg, #4facfe, #00f2fe)"
+        url: "https://drive.google.com/file/d/1vkl-Bp5wAxS3sl2GOYh9GbsugRlJUTKw/view?usp=drive_link",
+        color: "linear-gradient(135deg, #667eea, #764ba2)"
     },
     {
         id: 3,
         name: "Trackimo_GPS",
         domain: "IoT",
-        description: "We modernized a tracking software for IoT and fleet management, enhancing security, performance, and scalability. With advanced features like real-time tracking, location sharing, and SOS functionality, the app now offers seamless user experience across devices.",
-        url: "https://drive.google.com/file/d/1BnohqJN_0hVC3GJ35OOZwnuAVVWEVks0/view?usp=drive_link",
-        color: "linear-gradient(135deg, #43e97b, #38f9d7)"
+        description: "Modernized tracking software for IoT and fleet management, enhancing security and performance. Features like real-time tracking, location sharing, and SOS functionality offer a seamless experience across devices.",
+        url: "https://drive.google.com/file/d/1vkl-Bp5wAxS3sl2GOYh9GbsugRlJUTKw/view?usp=drive_link",
+        color: "linear-gradient(135deg, #4facfe, #00f2fe)"
     },
     {
         id: 4,
         name: "ServiceBuddy_FSM",
         domain: "Field Service Management",
-        description: "We developed a cloud-based CRM to streamline field service operations, including job scheduling, client management, and invoicing. The solution automated key tasks, boosting efficiency and enabling businesses to manage over 10,000 jobs and $10M+ in payments.",
-        url: "https://drive.google.com/file/d/1GQELU_Sg4Hrs1eq3EF2hSaKhZeS2ztWW/view?usp=drive_link",
-        color: "linear-gradient(135deg, #fa709a, #fee140)"
+        description: "Cloud-based CRM streamlining field operations including scheduling and invoicing. This solution automated key tasks, allowing businesses to manage over 10,000 jobs and $10M+ in payments efficiently.",
+        url: "https://drive.google.com/file/d/1vkl-Bp5wAxS3sl2GOYh9GbsugRlJUTKw/view?usp=drive_link",
+        color: "linear-gradient(135deg, #43e97b, #38f9d7)"
     },
     {
         id: 5,
         name: "Reliant",
         domain: "Fintech",
-        description: "We developed a fintech platform that automates major tasks in the loan application process, reducing manual effort and turnaround times. By enabling borrowers to connect with multiple lenders and centralizing document sharing, we improved loan processing speed by 50% and increased lender capacity by 20%.",
-        url: "https://drive.google.com/file/d/1yZaPKpMOVtdn_w-DRh-5wQvpyhsVszQW/view?usp=drive_link",
-        color: "linear-gradient(135deg, #667eea, #764ba2)"
+        description: "Automated loan application platform reducing manual effort and turnaround times. Improved loan processing speed by 50% and increased lender capacity by 20% by centralizing document sharing.",
+        url: "https://drive.google.com/file/d/1vkl-Bp5wAxS3sl2GOYh9GbsugRlJUTKw/view?usp=drive_link",
+        color: "linear-gradient(135deg, #fa709a, #fee140)"
     },
     {
         id: 6,
         name: "Orokii_Fintech",
         domain: "Fintech & Blockchain",
-        description: "We developed a cross-border and domestic payment app with a multi-currency wallet, utilizing blockchain technology to enhance speed, security, and reduce costs. The app enables seamless money transfers, real-time currency exchanges, and in-app communication, achieving a 33% reduction in transaction costs and 99x faster transaction times.",
-        url: "https://drive.google.com/file/d/1z9z3URoQmksIyfUStptmXKS39-tClyuV/view?usp=drive_link",
+        description: "Cross-border payment app with a multi-currency wallet using blockchain. Achieved simple money transfers and real-time exchanges with a 33% reduction in transaction costs and 99x faster transaction times.",
+        url: "https://drive.google.com/file/d/1vkl-Bp5wAxS3sl2GOYh9GbsugRlJUTKw/view?usp=drive_link",
         color: "linear-gradient(135deg, #89f7fe, #66a6ff)"
     },
     {
         id: 7,
-        name: "Nick academy",
+        name: "Nick Academy",
         domain: "EduTech",
-        description: "We transformed a STEM learning platform into an immersive and playful experience for children, focusing on multilingual support for Hebrew and Arabic. The result was a 20% increase in user engagement and a 95% parent satisfaction rate, ensuring both accessibility and cultural relevance.",
-        url: "https://drive.google.com/file/d/1hiczU-fWbVxMRssoPm9mx3SINUSSJzCq/view?usp=drive_link",
+        description: "Transformed STEM learning platform with multilingual support (Hebrew & Arabic). Resulted in a 20% increase in user engagement and 95% parent satisfaction for early childhood education.",
+        url: "https://drive.google.com/file/d/1vkl-Bp5wAxS3sl2GOYh9GbsugRlJUTKw/view?usp=drive_link",
         color: "linear-gradient(135deg, #ff0844, #ffb199)"
     },
     {
         id: 8,
         name: "Endo_Health",
         domain: "Healthcare",
-        description: "We optimized a healthcare app by improving video streaming, boosting performance on low-end devices, and automating build processes. The app’s reach expanded by 40% with multilingual support, while performance and security were enhanced to meet compliance standards.",
-        url: "https://drive.google.com/file/d/1Mb5rzo8mHGeHbB2TlnnDWtxSTwjaRR6e/view?usp=drive_link",
-        color: "linear-gradient(135deg, #96fbc4, #f9f586)"
+        description: "Optimized healthcare app with improved video streaming and automated builds. Expanded reach by 40% with multilingual support while meeting strict security and compliance standards.",
+        url: "https://drive.google.com/file/d/1vkl-Bp5wAxS3sl2GOYh9GbsugRlJUTKw/view?usp=drive_link",
+        color: "linear-gradient(135deg, #667eea, #764ba2)"
     },
     {
         id: 9,
         name: "Cultural Institution",
         domain: "Government & Media",
-        description: "We optimized the performance of a cultural institution's standalone app that showcased high-resolution historical imagery. By implementing an advanced caching system and image compression techniques, we reduced image loading times by 70%, leading to improved user engagement and smoother navigation without compromising the visual richness of the content.",
-        url: "https://drive.google.com/file/d/1qKq_2GDeT06yKwBrikqpmQePxijx2QMA/view?usp=drive_link",
-        color: "linear-gradient(135deg, #a18cd1, #fbc2eb)"
+        description: "Performance optimization for high-res historical imagery showcase. Reduced image loading times by 70% using advanced caching and compression techniques, ensuring smooth navigation.",
+        url: "https://drive.google.com/file/d/1vkl-Bp5wAxS3sl2GOYh9GbsugRlJUTKw/view?usp=drive_link",
+        color: "linear-gradient(135deg, #4facfe, #00f2fe)"
     },
     {
         id: 10,
-        name: "Construction",
+        name: "Construction Supply Chain",
         domain: "Supply Chain",
-        description: "We developed an innovative platform for a construction client to streamline their supply chain management, specifically for tracking over 100,000 bricks in various stages. By replacing cumbersome spreadsheets, we created a scalable system that integrated disparate data sources, optimized reporting, and allowed real-time updates.",
-        url: "https://drive.google.com/file/d/1YIUrXCRxv6VAwWKB9nhui0DG2EquC43H/view?usp=drive_link",
-        color: "linear-gradient(135deg, #ff9a9e, #fecfef)"
+        description: "Innovative platform tracking 100k+ bricks across various stages. Replaced spreadsheets with a scalable, real-time system that improved operational efficiency and reduced data entry time.",
+        url: "https://drive.google.com/file/d/1vkl-Bp5wAxS3sl2GOYh9GbsugRlJUTKw/view?usp=drive_link",
+        color: "linear-gradient(135deg, #43e97b, #38f9d7)"
     },
     {
         id: 11,
         name: "HELF",
         domain: "Fitness & Wellness",
-        description: "We worked with a fitness startup to create an intuitive, feature-rich app that allows users to create personalized workout plans, track their fitness progress, and receive real-time feedback. The challenge was balancing simplicity with functionality, ensuring security, scalability, and integration with wearable devices.",
-        url: "#",
-        color: "linear-gradient(135deg, #fccb90, #d57eeb)"
+        description: "Intuitive fitness app allowing personalized workout plans and real-time feedback. Integrates with wearable devices and uses gamification to enhance customer retention and user satisfaction.",
+        url: "https://drive.google.com/file/d/1vkl-Bp5wAxS3sl2GOYh9GbsugRlJUTKw/view?usp=drive_link",
+        color: "linear-gradient(135deg, #fa709a, #fee140)"
     },
     {
         id: 12,
         name: "KeepMoovin",
         domain: "Social Media",
-        description: "We developed KeepMoovin, a social media app focused on crowd awareness and real-time location sharing, helping users navigate urban spaces more effectively. Key features like heat maps, crowd density updates, and friend location sharing were integrated while ensuring privacy and high performance.",
-        url: "https://drive.google.com/file/d/1OeuQ6zhuDM9a5GWzW42nJWbiHV2IDUwx/view?usp=drive_link",
-        color: "linear-gradient(135deg, #e0c3fc, #8ec5fc)"
+        description: "Urban connectivity app with heat maps and crowd density updates. Saw a 40% increase in daily active users and over 10,000 registered users within the first month of launch.",
+        url: "https://drive.google.com/file/d/1vkl-Bp5wAxS3sl2GOYh9GbsugRlJUTKw/view?usp=drive_link",
+        color: "linear-gradient(135deg, #89f7fe, #66a6ff)"
     },
     {
         id: 13,
-        name: "GHC",
+        name: "GHC CRM",
         domain: "Consulting",
-        description: "GHC is an innovative Customer Relationship Management (CRM) platform tailored for energy auditing. It enhances the auditing journey by bringing together key players - administrators, managers, auditors, contractors, and service organizers—into a seamless workflow.",
-        url: "https://drive.google.com/file/d/1aV0JUUywvTDaq6BreIUC5uilucGLAOPp/view?usp=drive_link",
-        color: "linear-gradient(135deg, #4facfe, #00f2fe)"
+        description: "CRM platform tailored for energy auditing that automates essential tasks from scheduling to invoicing. Seamlessly connects administrators, managers, and auditors into one workflow.",
+        url: "https://drive.google.com/file/d/1vkl-Bp5wAxS3sl2GOYh9GbsugRlJUTKw/view?usp=drive_link",
+        color: "linear-gradient(135deg, #ff0844, #ffb199)"
     },
     {
         id: 14,
         name: "Trending Neurons",
         domain: "Fintech",
-        description: "Trending Neurons is a stock suggestion app that simplifies investing through data-driven insights. Leveraging machine learning, it provides personalized stock recommendations based on market trends and user preferences.",
-        url: "https://drive.google.com/file/d/1Czt1UXA7jzTeh6DaiPhFMT5knCbCTXA8/view?usp=drive_link",
-        color: "linear-gradient(135deg, #43e97b, #38f9d7)"
+        description: "Stock suggestion app providing data-driven insights using machine learning. Offers personalized recommendations based on market trends and user preferences to enhance decision-making.",
+        url: "https://drive.google.com/file/d/1vkl-Bp5wAxS3sl2GOYh9GbsugRlJUTKw/view?usp=drive_link",
+        color: "linear-gradient(135deg, #667eea, #764ba2)"
     },
     {
         id: 15,
         name: "InfoLocker",
         domain: "Productivity",
-        description: "InfoLocker is a mobile app that helps users manage their home or office by tracking items, managing warranties, and categorizing belongings. It offers quick searches and premium features through Apple In-App Purchases for enhanced organization.",
-        url: "https://drive.google.com/file/d/1oL6JnG4JW9whBse27dN_Kw4K8gwDVZxr/view?usp=drive_link",
-        color: "linear-gradient(135deg, #fa709a, #fee140)"
+        description: "Mobile app for tracking property items, managing warranties, and categorizing belongings. Features quick searches and Apple In-App Purchases for enhanced organization.",
+        url: "https://drive.google.com/file/d/1vkl-Bp5wAxS3sl2GOYh9GbsugRlJUTKw/view?usp=drive_link",
+        color: "linear-gradient(135deg, #4facfe, #00f2fe)"
     },
     {
         id: 16,
         name: "Kinderland",
         domain: "EdTech",
-        description: "Kinderland is an educational mobile game for children ages 2-6. It offers interactive learning activities for alphabets, numbers, colors, and shapes, using gamified techniques.",
-        url: "https://drive.google.com/file/d/1KphjgiwMtvh7tPUghBy3uw22fyHz1gKx/view?usp=drive_link",
-        color: "linear-gradient(135deg, #ff0844, #ffb199)"
+        description: "Educational mobile game for children ages 2-6 using gamified techniques for learning alphabets and numbers in a safe, ad-free environment.",
+        url: "https://drive.google.com/file/d/1vkl-Bp5wAxS3sl2GOYh9GbsugRlJUTKw/view?usp=drive_link",
+        color: "linear-gradient(135deg, #43e97b, #38f9d7)"
     },
     {
         id: 17,
         name: "Petswipe",
         domain: "Social",
-        description: "PetSwipe is a mobile application connecting pet owners with trusted caregivers, offering a community for pet lovers to share experiences and consult veterinarians. It provides a seamless platform for temporary pet care and expert pet advice.",
-        url: "https://drive.google.com/file/d/1FmhijSnMqiHlf2aBa4ImCXZyaXMwgX6H/view?usp=drive_link",
-        color: "linear-gradient(135deg, #fbc2eb, #a6c1ee)"
+        description: "Mobile marketplace connecting pet owners with trusted caregivers and veterinarians. Provides a seamless platform for temporary pet care and community advice.",
+        url: "https://drive.google.com/file/d/1vkl-Bp5wAxS3sl2GOYh9GbsugRlJUTKw/view?usp=drive_link",
+        color: "linear-gradient(135deg, #fa709a, #fee140)"
     },
     {
         id: 18,
         name: "Musematch",
         domain: "E-Commerce",
-        description: "MuseMatch brings together artists and buyers in a dynamic swipe-based platform, making it simple to discover new artworks, communicate directly, and complete purchases effortlessly. Buyers can express their interest by liking artworks.",
-        url: "https://drive.google.com/file/d/1kmX4vaTlY1ZNsc9PZdGpcrX5EIG0ImMs/view?usp=drive_link",
-        color: "linear-gradient(135deg, #84fab0, #8fd3f4)"
+        description: "Swipe-based platform matching artists with buyers. Discovery and direct communication tools create an engaging marketplace for global art creators and collectors.",
+        url: "https://drive.google.com/file/d/1vkl-Bp5wAxS3sl2GOYh9GbsugRlJUTKw/view?usp=drive_link",
+        color: "linear-gradient(135deg, #89f7fe, #66a6ff)"
     },
     {
         id: 19,
-        name: "Scalable E-Commerce App",
+        name: "Scalable E-Com App",
         domain: "E-Commerce",
-        description: "We developed a high-performance, scalable mobile application for an e-commerce client to enhance user experience, streamline operations, and boost conversions. The app featured seamless navigation, personalized recommendations, a secure payment gateway, and real-time order tracking.",
-        url: "https://drive.google.com/file/d/1BMAnz8OUQgUqDD0lHULBFy0gmoMVhyrg/view?usp=drive_link",
-        color: "linear-gradient(135deg, #a1c4fd, #c2e9fb)"
+        description: "High-performance mobile application with personalized recommendations, secure payment gateways, and real-time order tracking to boost retail conversions.",
+        url: "https://drive.google.com/file/d/1vkl-Bp5wAxS3sl2GOYh9GbsugRlJUTKw/view?usp=drive_link",
+        color: "linear-gradient(135deg, #ff0844, #ffb199)"
     },
     {
         id: 20,
-        name: "Healthcare Mobile App",
+        name: "Telemedicine Health",
         domain: "Healthcare",
-        description: "We developed a healthcare mobile app that enhances patient outcomes through seamless telemedicine, AI-driven health tracking, and real-time doctor-patient communication. The goal was to improve accessibility, reduce hospital visits, and enhance patient engagement.",
-        url: "https://drive.google.com/file/d/1j3bBsAtXq_xALLHDyc8aqZcmWx-1FAh4/view?usp=drive_link",
-        color: "linear-gradient(135deg, #ffecd2, #fcb69f)"
+        description: "Enhances patient outcomes through AI-driven health tracking and real-time doctor-patient communication, improving accessibility and engagement.",
+        url: "https://drive.google.com/file/d/1vkl-Bp5wAxS3sl2GOYh9GbsugRlJUTKw/view?usp=drive_link",
+        color: "linear-gradient(135deg, #667eea, #764ba2)"
     },
     {
         id: 21,
         name: "Employee Referral Platform",
-        domain: "HR Technology",
-        description: "Developed an employee referral platform with automated workflows, gamification, and ATS integration, increasing employee participation by 30% and reducing referral management time by 40%.",
-        url: "https://drive.google.com/file/d/1gOY0GrZlB_Znn0CohXj08o_NW66--ncL/view?usp=drive_link",
-        color: "linear-gradient(135deg, #cfd9df, #e2ebf0)"
+        domain: "HR Tech",
+        description: "Gamified referral platform with ATS integration. Increased employee participation by 30% and reduced referral management time by 40%.",
+        url: "https://drive.google.com/file/d/1vkl-Bp5wAxS3sl2GOYh9GbsugRlJUTKw/view?usp=drive_link",
+        color: "linear-gradient(135deg, #4facfe, #00f2fe)"
     },
     {
         id: 22,
         name: "AI Podcast Platform",
-        domain: "Media & Entertainment",
-        description: "Developed an AI-powered podcast platform with recording, editing tools, and flexible ad integration, resulting in 2,000+ podcasters registered and 5,000 podcasts uploaded within the first month.",
-        url: "https://drive.google.com/file/d/1KZFmMYboLcGVMElFo-W2SwAkBYHQoYKv/view?usp=drive_link",
-        color: "linear-gradient(135deg, #fdfbfb, #ebedee)"
+        domain: "Media",
+        description: "AI-powered recording and editing tools with flexible ad integration. Resulted in 2,000+ registered podcasters within the first month.",
+        url: "https://drive.google.com/file/d/1vkl-Bp5wAxS3sl2GOYh9GbsugRlJUTKw/view?usp=drive_link",
+        color: "linear-gradient(135deg, #43e97b, #38f9d7)"
     },
     {
         id: 23,
-        name: "Stock Prediction AI App",
+        name: "AI Stock Prediction",
         domain: "Fintech",
-        description: "Developed an AI-driven stock prediction mobile app with clear data presentation and enhanced security, increasing user engagement and brand awareness.",
-        url: "https://drive.google.com/file/d/1GJJbOzIxEkRH_MD-RmbHPri1nu3n-2hi/view?usp=drive_link",
-        color: "linear-gradient(135deg, #e0c3fc, #8ec5fc)"
+        description: "AI-driven market prediction app with clear data visualization and enhanced security to increase professional user engagement.",
+        url: "https://drive.google.com/file/d/1vkl-Bp5wAxS3sl2GOYh9GbsugRlJUTKw/view?usp=drive_link",
+        color: "linear-gradient(135deg, #fa709a, #fee140)"
     },
     {
         id: 24,
-        name: "Mobile Inventory App",
-        domain: "Inventory Management",
-        description: "Developed a mobile inventory management app to streamline order processing and improve real-time tracking, resulting in reduced errors and enhanced operational efficiency.",
-        url: "https://drive.google.com/file/d/14VM80G-2UXz3C6lJnlusnWf8fc9L6OrX/view?usp=drive_link",
-        color: "linear-gradient(135deg, #4facfe, #00f2fe)"
+        name: "Mobile Inventory Pro",
+        domain: "Logistics",
+        description: "Streamlined order processing with improved real-time tracking, resulting in reduced errors and enhanced operational efficiency.",
+        url: "https://drive.google.com/file/d/1vkl-Bp5wAxS3sl2GOYh9GbsugRlJUTKw/view?usp=drive_link",
+        color: "linear-gradient(135deg, #89f7fe, #66a6ff)"
     },
     {
         id: 25,
         name: "Podcast IQ",
         domain: "Podcasting & AI",
-        description: "Developed Podcast IQ, an AI-powered tool that tailors podcast content by generating summaries, quizzes, and Q&A sessions, enhancing time efficiency and user experience for podcast enthusiasts.",
+        description: "AI-powered tool tailoring podcast content through automated summaries, quizzes, and Q&A sessions for better knowledge retention.",
         url: "https://drive.google.com/file/d/1vkl-Bp5wAxS3sl2GOYh9GbsugRlJUTKw/view?usp=drive_link",
-        color: "linear-gradient(135deg, #43e97b, #38f9d7)"
+        color: "linear-gradient(135deg, #ff0844, #ffb199)"
     },
     {
         id: 26,
         name: "AI PDF Summarizer",
         domain: "AI tools",
-        description: "Developed AI PDF Summarizer, an intuitive tool that leverages AI to quickly summarize PDFs, offering both paragraph and bullet-point summaries with just a few clicks, improving efficiency for busy professionals and researchers.",
-        url: "https://drive.google.com/file/d/1ONVV7klFUt7UjKGB6lvHmXAVRR0w58WS/view?usp=drive_link",
-        color: "linear-gradient(135deg, #fa709a, #fee140)"
+        description: "Leverages AI to quickly summarize PDFs into paragraph or bullet-point formats, boosting research efficiency for busy professionals.",
+        url: "https://drive.google.com/file/d/1vkl-Bp5wAxS3sl2GOYh9GbsugRlJUTKw/view?usp=drive_link",
+        color: "linear-gradient(135deg, #667eea, #764ba2)"
     },
     {
         id: 27,
-        name: "AI Presentation Generator",
+        name: "AI Presentation Gen",
         domain: "AI tools",
-        description: "An AI-Powered Presentation Generator that allows users to quickly create custom business presentations. Simply input your topic, choose your style and tone, and download the final slides for free, making the process efficient and impactful.",
+        description: "Generative AI for instant business presentations. Simply input your topic and style to download professional final slides in seconds.",
         url: "https://drive.google.com/file/d/1vkl-Bp5wAxS3sl2GOYh9GbsugRlJUTKw/view?usp=drive_link",
-        color: "linear-gradient(135deg, #ff0844, #ffb199)"
+        color: "linear-gradient(135deg, #4facfe, #00f2fe)"
     },
     {
         id: 28,
         name: "CabUno",
         domain: "Transportation",
-        description: "A premium ride-sharing architecture designed for urban mobility with real-time route optimization and automated dispatch systems.",
+        description: "Comprehensive ride-hailing app built with Expo React Native. Features real-time tracking, vehicle selection, and Firebase-backed scaling.",
         url: "cabuno-case-study.html",
         color: "linear-gradient(135deg, #FF6B6B, #FF8E53)"
     },
     {
         id: 29,
-        name: "Elara",
-        domain: "Home Automation",
-        description: "An intelligent ecosystem for smart home control, integrating IoT devices with energy-efficient scheduling and voice orchestration.",
+        name: "Elara Wellness",
+        domain: "Health & Fitness",
+        description: "Prenatal and postnatal wellness ecosystem featuring baby growth tracking, yoga routines, and meditation specifically for mothers.",
         url: "#",
         color: "linear-gradient(135deg, #4facfe, #00f2fe)"
     },
     {
         id: 30,
         name: "Petfinder",
-        domain: "Social",
-        description: "A community-driven platform for pet adoption and lost-and-found tracking, utilizing geolocation and real-time community alerts.",
+        domain: "Lifestyle",
+        description: "Find your perfect pet companion fast and easy with this community-driven location-aware adoption and pet-matching platform.",
         url: "#",
         color: "linear-gradient(135deg, #43e97b, #38f9d7)"
     },
     {
         id: 31,
         name: "SpineRecovery Pro",
-        domain: "Healthcare",
-        description: "Digital health suite for post-surgical spine recovery, featuring daily exercise tracking and direct-to-surgeon messaging.",
+        domain: "Health & Fitness",
+        description: "Clinically guided spine recovery platform with personalized exercise plans, daily tracking, and adherence compliance monitoring.",
         url: "#",
         color: "linear-gradient(135deg, #fa709a, #fee140)"
     },
     {
         id: 32,
         name: "ScanEat",
-        domain: "Food & Wellness",
-        description: "AI-powered nutritional assistant that analyzes restaurant menus and provides personalized health recommendations based on dietary goals.",
+        domain: "Food & Drink",
+        description: "Instantly scan food barcodes to get health scores and deep insights into ingredients and allergen warnings for informed nutrition.",
         url: "#",
         color: "linear-gradient(135deg, #667eea, #764ba2)"
     },
     {
         id: 33,
-        name: "Mr. Brush",
-        domain: "Hygiene Tech",
-        description: "Smart dental hygiene companion that gamifies toothbrushing habits for children, paired with hardware sensor integration.",
+        name: "Mr. Brush AI",
+        domain: "Productivity",
+        description: "Next-gen AI image generator supporting custom styles and sophisticated text-to-image prompts for high-quality creative assets.",
         url: "#",
         color: "linear-gradient(135deg, #89f7fe, #66a6ff)"
     },
     {
         id: 34,
         name: "LifePilot AI",
-        domain: "Productivity",
-        description: "Autonomous scheduling agent that manages high-complexity executive calendars using predictive modeling and priority scoring.",
+        domain: "Tools",
+        description: "A comprehensive personal AI assistant designed to manage every aspect of life through predictive helping and active scheduling.",
         url: "#",
         color: "linear-gradient(135deg, #ff0844, #ffb199)"
     },
     {
         id: 35,
         name: "KindCircle",
-        domain: "Charity",
-        description: "Transparent non-profit donation tracking platform leveraging blockchain for verified impact reporting and direct peer-to-peer aid.",
+        domain: "Social",
+        description: "Highly supportive network designed specifically for parents of neurodivergent kids to connect, learn, and share verified resources.",
         url: "#",
         color: "linear-gradient(135deg, #96fbc4, #f9f586)"
     },
     {
         id: 36,
         name: "OrderNest",
-        domain: "Logistics",
-        description: "Unified dashboard for multi-channel inventory fulfillment, optimizing warehouse picking routes and reducing lead times.",
+        domain: "Food & Drink",
+        description: "Integrated restaurant management app for dynamic menus, table reservations, staff workflows, and real-time billing.",
         url: "#",
         color: "linear-gradient(135deg, #a18cd1, #fbc2eb)"
     },
     {
-        id: 37,
-        name: "VectorTrace",
-        domain: "Creative Tools",
-        description: "Real-time collaborative vector design tool with cloud-based versioning and SVG optimization for high-performance web assets.",
-        url: "#",
-        color: "linear-gradient(135deg, #ff9a9e, #fecfef)"
-    },
-    {
-        id: 38,
-        name: "Service Squad",
-        domain: "Consumer Services",
-        description: "On-demand home maintenance marketplace connecting vetted specialists with homeowners via a localized, real-time dispatch system.",
-        url: "#",
-        color: "linear-gradient(135deg, #fccb90, #d57eeb)"
-    },
-    {
-        id: 39,
-        name: "PinkSignal",
-        domain: "Communication",
-        description: "Encrypted internal communication protocol for enterprise security teams, featuring zero-trust architecture and ephemeral data storage.",
-        url: "#",
-        color: "linear-gradient(135deg, #e0c3fc, #8ec5fc)"
-    },
-    {
-        id: 40,
-        name: "FitOrbit",
-        domain: "Health & Fitness",
-        description: "Metaverse-integrated fitness platform that syncs real-world workout data with digital avatar progression and community challenges.",
-        url: "#",
-        color: "linear-gradient(135deg, #4facfe, #00f2fe)"
-    },
-    {
-        id: 41,
-        name: "CircleUp",
-        domain: "Social",
-        description: "Micro-community manager for niche interest groups, focusing on high-quality engagement and member-only gated content.",
-        url: "#",
-        color: "linear-gradient(135deg, #43e97b, #38f9d7)"
-    },
-    {
         id: 42,
         name: "HeartMesh",
-        domain: "Healthcare",
-        description: "Predictive cardiac diagnostics tool using machine learning to identify early warning signs of cardiovascular distress from wearable data.",
+        domain: "Dating",
+        description: "Unique dating ecosystem combining AI companions for social practice with real video-call matches to foster authentic connectivity.",
         url: "#",
         color: "linear-gradient(135deg, #fa709a, #fee140)"
     },
     {
         id: 43,
-        name: "Exora",
-        domain: "E-Commerce",
-        description: "Next-generation storefront for premium luxury goods, featuring AR-based 'try-on' capabilities and secure blockchain provenance.",
+        name: "Exora Clinics",
+        domain: "Healthcare",
+        description: "Enterprise connectivity platform for patients and clinics to ensure better recovery outcomes through data-driven post-op care.",
         url: "#",
         color: "linear-gradient(135deg, #667eea, #764ba2)"
     },
     {
         id: 44,
         name: "Enclave Connect",
-        domain: "Fintech",
-        description: "Secure bridge for institutional asset transfers, providing multi-layered authentication and real-time compliance auditing.",
+        domain: "Lifestyle",
+        description: "Secure and connected living platform for gated communities, offering resident management and centralized administrative tools.",
         url: "#",
         color: "linear-gradient(135deg, #89f7fe, #66a6ff)"
     },
     {
         id: 45,
         name: "DocChat",
-        domain: "LegalTech",
-        description: "AI-assisted legal document review platform that identifies contractual risks and suggests optimization for standard Master Service Agreements.",
+        domain: "Social",
+        description: "Secure platform enabling doctors and patients to chat, book medical visits, and conduct remote consultations via encrypted video calls.",
         url: "#",
         color: "linear-gradient(135deg, #ff0844, #ffb199)"
     },
     {
         id: 46,
         name: "Social Ora",
-        domain: "Social",
-        description: "Privacy-first social network built on a decentralized protocol, returning data ownership and monetization rights to individual users.",
+        domain: "Social Media",
+        description: "Advanced lead finding and Instagram automation tool supporting mass DMs, drip campaigns, and complex marketing workflows.",
         url: "#",
         color: "linear-gradient(135deg, #96fbc4, #f9f586)"
     },
     {
         id: 47,
         name: "Memora AI",
-        domain: "EdTech",
-        description: "Adaptive flashcard tutor that uses spatial repetition algorithms and AI-generated mnemonics to accelerate medical terminology mastery.",
+        domain: "Education",
+        description: "Study smarter with AI-driven flashcards created automatically from your notes, PDFs, audio files, and images.",
         url: "#",
         color: "linear-gradient(135deg, #a18cd1, #fbc2eb)"
     },
     {
         id: 48,
         name: "AnonWhisper",
-        domain: "Communication",
-        description: "Anonymous whistleblower platform for large organizations, providing end-to-end encrypted reporting channels to internal compliance teams.",
+        domain: "Social Networking",
+        description: "Anonymous social chat application where users join topic-based rooms for meaningful conversations while protecting their identity.",
         url: "#",
         color: "linear-gradient(135deg, #ff9a9e, #fecfef)"
     }
