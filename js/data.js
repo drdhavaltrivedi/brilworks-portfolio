@@ -220,7 +220,7 @@ const projects = [
         name: "CabUno",
         domain: "Transportation",
         description: "A premium ride-sharing architecture designed for urban mobility with real-time route optimization and automated dispatch systems.",
-        url: "#",
+        url: "cabuno-case-study.html",
         color: "linear-gradient(135deg, #FF6B6B, #FF8E53)"
     },
     {

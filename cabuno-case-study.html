@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cabuno Case Study | Brilworks Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .case-study-hero {
+            padding-top: 12rem;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 4rem;
+            align-items: center;
+        }
+        .hero-image-container {
+            position: relative;
+            z-index: 10;
+        }
+        .hero-image-container img {
+            width: 100%;
+            border-radius: 30px;
+            box-shadow: 0 40px 100px -20px rgba(0,0,0,0.8);
+        }
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 2rem;
+            margin-top: 3rem;
+            padding-top: 2rem;
+            border-top: 1px solid var(--border-color);
+        }
+        .stat-item h4 { font-size: 1.5rem; font-weight: 700; color: var(--accent); }
+        .stat-item p { font-size: 0.8rem; color: var(--text-gray); text-transform: uppercase; letter-spacing: 1px; }
+
+        .content-section {
+            padding: 8rem 0;
+            display: grid;
+            grid-template-columns: 350px 1fr;
+            gap: 6rem;
+            border-bottom: 1px solid var(--border-color);
+        }
+        .section-label {
+            position: sticky;
+            top: 120px;
+            height: fit-content;
+        }
+        .section-label h3 { font-size: 1.8rem; letter-spacing: -1px; margin-bottom: 1rem; }
+        .section-label .badge { margin-bottom: 1rem; }
+
+        .details-content h4 { font-size: 1.4rem; margin: 2rem 0 1rem; color: white; }
+        .details-content p { color: var(--text-gray); font-size: 1.1rem; margin-bottom: 1.5rem; line-height: 1.8; }
+        .details-content ul { color: var(--text-gray); list-style: none; margin-bottom: 2rem; }
+        .details-content li { margin-bottom: 1rem; padding-left: 1.5rem; position: relative; }
+        .details-content li::before { content: '→'; position: absolute; left: 0; color: var(--accent); }
+
+        .feature-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 2.5rem;
+            margin: 3rem 0;
+        }
+        .feature-card {
+            background: rgba(255,255,255,0.03);
+            border: 1px solid var(--border-color);
+            padding: 2rem;
+            border-radius: 20px;
+        }
+        .feature-card h5 { font-size: 1.1rem; margin-bottom: 0.5rem; color: white; }
+
+        .tech-tags { display: flex; flex-wrap: wrap; gap: 0.8rem; margin-top: 1rem; }
+        .tech-tag {
+            background: rgba(255,255,255,0.05);
+            border: 1px solid var(--border-color);
+            padding: 0.5rem 1rem;
+            border-radius: 8px;
+            font-size: 0.9rem;
+            color: var(--text-white);
+        }
+
+        .full-width-image {
+            margin: 6rem 0;
+            width: 100%;
+            height: 500px;
+            object-fit: cover;
+            border-radius: 40px;
+            box-shadow: 0 40px 80px rgba(0,0,0,0.5);
+        }
+
+        @media (max-width: 1024px) {
+            .case-study-hero, .content-section { grid-template-columns: 1fr; }
+            .section-label { position: relative; top: 0; margin-bottom: 2rem; }
+            .feature-grid { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+    <div class="bg-vignette"></div>
+    <nav class="navbar">
+        <div class="logo">
+            <a href="index.html" style="text-decoration: none; display: flex; align-items: center; gap: 0.8rem;">
+                <img src="logo-white.svg" alt="Brilworks" class="nav-logo">
+            </a>
+        </div>
+        <div class="nav-links">
+            <a href="index.html#portfolio" class="nav-item">Back to Portfolio</a>
+            <a href="https://www.brilworks.com/contact-us/" target="_blank" class="btn-primary">Partner With Us</a>
+        </div>
+    </nav>
+
+    <main class="portfolio-section" style="padding-bottom: 0;">
+        <!-- HERO SECTION -->
+        <section class="case-study-hero">
+            <div class="hero-text">
+                <span class="badge">Mobility & Transportation</span>
+                <h1 style="font-size: 4.5rem; line-height: 1.1; margin: 1.5rem 0;">Cabuno: Real-Time <span class="gradient-text">Ride-Hailing</span> Ecosystem</h1>
+                <p style="font-size: 1.25rem; color: var(--text-gray); margin-bottom: 3rem;">A high-performance ride-booking application built with Expo React Native, integrating live tracking and seamless Firebase scaling.</p>
+                
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <h4>Android/iOS</h4>
+                        <p>Platforms</p>
+                    </div>
+                    <div class="stat-item">
+                        <h4>Real-Time</h4>
+                        <p>Lifecycle</p>
+                    </div>
+                    <div class="stat-item">
+                        <h4>99.9%</h4>
+                        <p>Uptime</p>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image-container">
+                <img src="assets/cabuno-hero.png" alt="Cabuno App Interface">
+            </div>
+        </section>
+
+        <!-- OVERVIEW -->
+        <section class="content-section">
+            <div class="section-label">
+                <span class="badge">01</span>
+                <h3>Project Overview</h3>
+            </div>
+            <div class="details-content">
+                <p>Cabuno is an on-demand mobility application designed to bridge the gap between urban travelers and reliable drivers. Built as a cross-platform solution using Expo, it supports Android, iOS, and Web platforms with a unified codebase.</p>
+                <h4>The Problem</h4>
+                <p>Commuters in urban environments often struggle with uncertain ride availability, inconsistent pickup experiences, and a lack of transparency regarding fares and ride progress. Traditional systems often lack cohesive real-time communication between the rider and driver.</p>
+                <h4>The Solution</h4>
+                <p>We developed a location-aware matching engine that utilizes Firebase's real-time capabilities to provide live status updates, transparent routing, and a frictionless booking journey from authentication to completion.</p>
+            </div>
+        </section>
+
+        <!-- TECH STACK -->
+        <section class="content-section">
+            <div class="section-label">
+                <span class="badge">02</span>
+                <h3>The Tech Stack</h3>
+            </div>
+            <div class="details-content">
+                <p>To ensure scalability and developer velocity, we selected a modern mobile stack centered around the Expo ecosystem and Firebase services.</p>
+                <div class="feature-grid">
+                    <div class="feature-card">
+                        <h5>Frontend</h5>
+                        <div class="tech-tags">
+                            <span class="tech-tag">React Native</span>
+                            <span class="tech-tag">TypeScript</span>
+                            <span class="tech-tag">Expo Router</span>
+                            <span class="tech-tag">NativeWind</span>
+                        </div>
+                    </div>
+                    <div class="feature-card">
+                        <h5>Backend & Services</h5>
+                        <div class="tech-tags">
+                            <span class="tech-tag">Firebase Auth</span>
+                            <span class="tech-tag">Cloud Firestore</span>
+                            <span class="tech-tag">FCM Notifications</span>
+                            <span class="tech-tag">Google Maps API</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- KEY FEATURES -->
+        <section class="content-section">
+            <div class="section-label">
+                <span class="badge">03</span>
+                <h3>Core Features</h3>
+            </div>
+            <div class="details-content">
+                <div class="feature-grid">
+                    <div class="feature-card">
+                        <h5>Secure OTP Auth</h5>
+                        <p style="font-size: 0.9rem;">Fast phone-based onboarding with Firebase Auth and automated session routing.</p>
+                    </div>
+                    <div class="feature-card">
+                        <h5>Live Status Tracking</h5>
+                        <p style="font-size: 0.9rem;">Real-time Firestore listeners for instant ride state transitions (Accepted, Ongoing, Done).</p>
+                    </div>
+                    <div class="feature-card">
+                        <h5>Multi-Vehicle Classes</h5>
+                        <p style="font-size: 0.9rem;">Category selection (UnoGo, Premier, Moto) with dynamic logic based on availability.</p>
+                    </div>
+                    <div class="feature-card">
+                        <h5>Feedback Ecosystem</h5>
+                        <p style="font-size: 0.9rem;">Post-ride rating workflow with analytics-backed user sentiment tracking.</p>
+                    </div>
+                </div>
+                <img src="assets/cabuno-mockup-2.png" alt="Cabuno Features" class="full-width-image">
+            </div>
+        </section>
+
+        <!-- CHALLENGES -->
+        <section class="content-section">
+            <div class="section-label">
+                <span class="badge">04</span>
+                <h3>Challenges Solved</h3>
+            </div>
+            <div class="details-content">
+                <h4>Stale Ride Data</h4>
+                <p>Status changes can happen in milliseconds. We solved this by combining Firestore's real-time snapshots with React Query's cache invalidation, ensuring the UI always reflects the database state without manual refreshes.</p>
+                <h4>Booking Conflicts</h4>
+                <p>Preventing duplicate active rides was critical. We implemented a rigorous lifecycle guard that checks for ongoing trip states before allowing a user to enter a new booking flow.</p>
+                <h4>Reliable Session Cleanup</h4>
+                <p>Logging out isn't just about clearing a token; it's about security. We built a structured sign-out pipeline that clears FCM notification tokens and resets all global stores to prevent data leakage.</p>
+            </div>
+        </section>
+
+    </main>
+
+    <footer id="contact">
+        <div class="footer-content" style="max-width: 800px; margin: 0 auto; text-align: center;">
+            <h2>Looking for similar mobility excellence?</h2>
+            <p>Our experience with Cabuno proves we can handle complex real-time logistics. Let's discuss your transportation venture.</p>
+            <a href="https://www.brilworks.com/contact-us/" target="_blank" class="btn-primary btn-large">Build With Us</a>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Brilworks. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/data.js"></script>
+    <script>
+        // Smooth scroll for nav links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                const targetId = this.getAttribute('href');
+                if (targetId.startsWith('#')) {
+                    const target = document.querySelector(targetId);
+                    if (target) {
+                        e.preventDefault();
+                        target.scrollIntoView({ behavior: 'smooth' });
+                    }
+                }
+            });
+        });
+    </script>
+</body>
+</html>
