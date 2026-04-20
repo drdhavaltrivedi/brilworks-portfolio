@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brilworks | Partner Portfolio</title>
+    <meta name="description" content="Explore our extensive portfolio of tech projects across diverse domains. Partner with us for innovative digital solutions.">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="bg-vignette"></div>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="logo-white.svg" alt="Brilworks" class="nav-logo">
+        </div>
+        <div class="nav-links">
+            <a href="#portfolio" class="nav-item">Our Work</a>
+            <a href="https://www.brilworks.com/contact-us/" target="_blank" class="btn-primary">Partner With Us</a>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-content">
+            <span class="badge">Trusted by Industry Leaders</span>
+            <h1>Architecting the <span class="gradient-text">Future</span> of Digital Enterprise</h1>
+            <p>From AI-driven analytics to scalable fintech ecosystems, we deliver the engineering excellence your partnership deserves.</p>
+            <div class="hero-actions">
+                <a href="#portfolio" class="btn-secondary">Explore Portfolio</a>
+            </div>
+        </div>
+        <div class="hero-glow"></div>
+    </header>
+
+    <main id="portfolio" class="portfolio-section">
+        <div class="section-header">
+            <h2>Project Portfolio</h2>
+            <p>Empowering industries through code and creativity.</p>
+        </div>
+        
+        <div class="controls">
+            <div class="search-box">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                <input type="text" id="search-input" placeholder="Search by project or domain...">
+            </div>
+        </div>
+
+        <div class="grid" id="portfolio-grid">
+            <!-- Project cards injected by JS -->
+        </div>
+    </main>
+
+    <footer id="contact">
+        <div class="footer-content">
+            <h2>Ready to collaborate?</h2>
+            <p>Reach out to discover how our expertise can accelerate your next initiative and deliver exceptional results.</p>
+            <a href="https://www.brilworks.com/contact-us/" target="_blank" class="btn-primary btn-large">Contact Our Team</a>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Brilworks. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/data.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
