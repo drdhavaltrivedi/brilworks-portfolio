@@ -5,98 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cabuno Case Study | Brilworks Portfolio</title>
     <link rel="stylesheet" href="css/style.css">
-    <style>
-        .case-study-hero {
-            padding-top: 12rem;
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 4rem;
-            align-items: center;
-        }
-        .hero-image-container {
-            position: relative;
-            z-index: 10;
-        }
-        .hero-image-container img {
-            width: 100%;
-            border-radius: 30px;
-            box-shadow: 0 40px 100px -20px rgba(0,0,0,0.8);
-        }
-        .stats-grid {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 2rem;
-            margin-top: 3rem;
-            padding-top: 2rem;
-            border-top: 1px solid var(--border-color);
-        }
-        .stat-item h4 { font-size: 1.5rem; font-weight: 700; color: var(--accent); }
-        .stat-item p { font-size: 0.8rem; color: var(--text-gray); text-transform: uppercase; letter-spacing: 1px; }
-
-        .content-section {
-            padding: 8rem 0;
-            display: grid;
-            grid-template-columns: 350px 1fr;
-            gap: 6rem;
-            border-bottom: 1px solid var(--border-color);
-        }
-        .section-label {
-            position: sticky;
-            top: 120px;
-            height: fit-content;
-        }
-        .section-label h3 { font-size: 1.8rem; letter-spacing: -1px; margin-bottom: 1rem; }
-        .section-label .badge { margin-bottom: 1rem; }
-
-        .details-content h4 { font-size: 1.4rem; margin: 2rem 0 1rem; color: white; }
-        .details-content p { color: var(--text-gray); font-size: 1.1rem; margin-bottom: 1.5rem; line-height: 1.8; }
-        .details-content ul { color: var(--text-gray); list-style: none; margin-bottom: 2rem; }
-        .details-content li { margin-bottom: 1rem; padding-left: 1.5rem; position: relative; }
-        .details-content li::before { content: '→'; position: absolute; left: 0; color: var(--accent); }
-
-        .feature-grid {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 2.5rem;
-            margin: 3rem 0;
-        }
-        .feature-card {
-            background: rgba(255,255,255,0.03);
-            border: 1px solid var(--border-color);
-            padding: 2rem;
-            border-radius: 20px;
-        }
-        .feature-card h5 { font-size: 1.1rem; margin-bottom: 0.5rem; color: white; }
-
-        .tech-tags { display: flex; flex-wrap: wrap; gap: 0.8rem; margin-top: 1rem; }
-        .tech-tag {
-            background: rgba(255,255,255,0.05);
-            border: 1px solid var(--border-color);
-            padding: 0.5rem 1rem;
-            border-radius: 8px;
-            font-size: 0.9rem;
-            color: var(--text-white);
-        }
-
-        .full-width-image {
-            margin: 6rem 0;
-            width: 100%;
-            height: 500px;
-            object-fit: cover;
-            border-radius: 40px;
-            box-shadow: 0 40px 80px rgba(0,0,0,0.5);
-        }
-
-        @media (max-width: 1024px) {
-            .case-study-hero, .content-section { grid-template-columns: 1fr; }
-            .section-label { position: relative; top: 0; margin-bottom: 2rem; }
-            .feature-grid { grid-template-columns: 1fr; }
-        }
-    </style>
 </head>
 <body>
     <div class="bg-vignette"></div>
-    <nav class="navbar">
+    <nav class="navbar" id="navbar">
         <div class="logo">
             <a href="index.html" style="text-decoration: none; display: flex; align-items: center; gap: 0.8rem;">
                 <img src="logo-white.svg" alt="Brilworks" class="nav-logo">
@@ -113,8 +25,8 @@
         <section class="case-study-hero">
             <div class="hero-text">
                 <span class="badge">Mobility & Transportation</span>
-                <h1 style="font-size: 4.5rem; line-height: 1.1; margin: 1.5rem 0;">Cabuno: Real-Time <span class="gradient-text">Ride-Hailing</span> Ecosystem</h1>
-                <p style="font-size: 1.25rem; color: var(--text-gray); margin-bottom: 3rem;">A high-performance ride-booking application built with Expo React Native, integrating live tracking and seamless Firebase scaling.</p>
+                <h1 style="font-size: clamp(2.5rem,5vw,4.2rem); line-height: 1.08; margin: 1.5rem 0; letter-spacing:-0.04em;">Cabuno: Real-Time <span class="highlight">Ride-Hailing</span> Ecosystem</h1>
+                <p style="font-size: 1.1rem; color: var(--text-dim); margin-bottom: 3rem; line-height:1.75;">A high-performance ride-booking application built with Expo React Native, integrating live tracking and seamless Firebase scaling.</p>
                 
                 <div class="stats-grid">
                     <div class="stat-item">
@@ -230,31 +142,28 @@
     </main>
 
     <footer id="contact">
-        <div class="footer-content" style="max-width: 800px; margin: 0 auto; text-align: center;">
+        <div class="footer-cta-wrap fade-in-up">
+            <span class="badge">Let's Build Together</span>
             <h2>Looking for similar mobility excellence?</h2>
             <p>Our experience with Cabuno proves we can handle complex real-time logistics. Let's discuss your transportation venture.</p>
             <a href="https://www.brilworks.com/contact-us/" target="_blank" class="btn-primary btn-large">Build With Us</a>
         </div>
         <div class="footer-bottom">
             <p>&copy; 2026 Brilworks. All rights reserved.</p>
+            <a href="index.html" class="nav-item">← Back to Portfolio</a>
         </div>
     </footer>
 
-    <script src="js/data.js"></script>
     <script>
-        // Smooth scroll for nav links
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
-                const targetId = this.getAttribute('href');
-                if (targetId.startsWith('#')) {
-                    const target = document.querySelector(targetId);
-                    if (target) {
-                        e.preventDefault();
-                        target.scrollIntoView({ behavior: 'smooth' });
-                    }
-                }
-            });
-        });
+        const navbar = document.getElementById('navbar');
+        window.addEventListener('scroll', () => {
+            navbar.classList.toggle('scrolled', window.scrollY > 30);
+        }, { passive: true });
+
+        const observer = new IntersectionObserver(entries => {
+            entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); observer.unobserve(e.target); } });
+        }, { threshold: 0.1 });
+        document.querySelectorAll('.fade-in-up').forEach(el => observer.observe(el));
     </script>
 </body>
 </html>
