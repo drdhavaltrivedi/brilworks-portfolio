@@ -1,5 +1,14 @@
 const projects = [
     {
+        id: 49,
+        name: "Admission OS",
+        domain: "EdTech & AI",
+        description: "An AI-orchestrated MBA application platform featuring a 7-agent pipeline that replaces high-cost consulting with strategic, automated coaching.",
+        url: "admission-os.html",
+        color: "linear-gradient(135deg, #6C63FF, #A78BFA)",
+        isAI: true
+    },
+    {
         id: 1,
         name: "Accelevent",
         domain: "EventTech",
@@ -173,7 +182,8 @@ const projects = [
         domain: "Media & Entertainment",
         description: "Developed an AI-powered podcast platform with recording, editing tools, and flexible ad integration, resulting in 2,000+ podcasters registered and 5,000 podcasts uploaded within the first month.",
         url: "https://drive.google.com/file/d/1KZFmMYboLcGVMElFo-W2SwAkBYHQoYKv/view?usp=drive_link",
-        color: "linear-gradient(135deg, #fdfbfb, #ebedee)"
+        color: "linear-gradient(135deg, #fdfbfb, #ebedee)",
+        isAI: true
     },
     {
         id: 23,
@@ -181,7 +191,8 @@ const projects = [
         domain: "Fintech",
         description: "Developed an AI-driven stock prediction mobile app with clear data presentation and enhanced security, increasing user engagement and brand awareness.",
         url: "https://drive.google.com/file/d/1GJJbOzIxEkRH_MD-RmbHPri1nu3n-2hi/view?usp=drive_link",
-        color: "linear-gradient(135deg, #e0c3fc, #8ec5fc)"
+        color: "linear-gradient(135deg, #e0c3fc, #8ec5fc)",
+        isAI: true
     },
     {
         id: 24,
@@ -197,7 +208,8 @@ const projects = [
         domain: "Podcasting & AI",
         description: "Developed Podcast IQ, an AI-powered tool that tailors podcast content by generating summaries, quizzes, and Q&A sessions, enhancing time efficiency and user experience for podcast enthusiasts.",
         url: "https://drive.google.com/file/d/1vkl-Bp5wAxS3sl2GOYh9GbsugRlJUTKw/view?usp=drive_link",
-        color: "linear-gradient(135deg, #43e97b, #38f9d7)"
+        color: "linear-gradient(135deg, #43e97b, #38f9d7)",
+        isAI: true
     },
     {
         id: 26,
@@ -205,7 +217,8 @@ const projects = [
         domain: "AI tools",
         description: "Developed AI PDF Summarizer, an intuitive tool that leverages AI to quickly summarize PDFs, offering both paragraph and bullet-point summaries with just a few clicks, improving efficiency for busy professionals and researchers.",
         url: "https://drive.google.com/file/d/1ONVV7klFUt7UjKGB6lvHmXAVRR0w58WS/view?usp=drive_link",
-        color: "linear-gradient(135deg, #fa709a, #fee140)"
+        color: "linear-gradient(135deg, #fa709a, #fee140)",
+        isAI: true
     },
     {
         id: 27,
@@ -213,7 +226,8 @@ const projects = [
         domain: "AI tools",
         description: "An AI-Powered Presentation Generator that allows users to quickly create custom business presentations. Simply input your topic, choose your style and tone, and download the final slides for free, making the process efficient and impactful.",
         url: "https://drive.google.com/file/d/1vkl-Bp5wAxS3sl2GOYh9GbsugRlJUTKw/view?usp=drive_link",
-        color: "linear-gradient(135deg, #ff0844, #ffb199)"
+        color: "linear-gradient(135deg, #ff0844, #ffb199)",
+        isAI: true
     },
     {
         id: 28,
@@ -253,7 +267,8 @@ const projects = [
         domain: "Food & Wellness",
         description: "AI-powered nutritional assistant that analyzes restaurant menus and provides personalized health recommendations based on dietary goals.",
         url: "#",
-        color: "linear-gradient(135deg, #667eea, #764ba2)"
+        color: "linear-gradient(135deg, #667eea, #764ba2)",
+        isAI: true
     },
     {
         id: 33,
@@ -269,7 +284,8 @@ const projects = [
         domain: "Productivity",
         description: "Autonomous scheduling agent that manages high-complexity executive calendars using predictive modeling and priority scoring.",
         url: "#",
-        color: "linear-gradient(135deg, #ff0844, #ffb199)"
+        color: "linear-gradient(135deg, #ff0844, #ffb199)",
+        isAI: true
     },
     {
         id: 35,
@@ -333,7 +349,8 @@ const projects = [
         domain: "Healthcare",
         description: "Predictive cardiac diagnostics tool using machine learning to identify early warning signs of cardiovascular distress from wearable data.",
         url: "#",
-        color: "linear-gradient(135deg, #fa709a, #fee140)"
+        color: "linear-gradient(135deg, #fa709a, #fee140)",
+        isAI: true
     },
     {
         id: 43,
@@ -357,7 +374,8 @@ const projects = [
         domain: "LegalTech",
         description: "AI-assisted legal document review platform that identifies contractual risks and suggests optimization for standard Master Service Agreements.",
         url: "#",
-        color: "linear-gradient(135deg, #ff0844, #ffb199)"
+        color: "linear-gradient(135deg, #ff0844, #ffb199)",
+        isAI: true
     },
     {
         id: 46,
@@ -373,7 +391,8 @@ const projects = [
         domain: "EdTech",
         description: "Adaptive flashcard tutor that uses spatial repetition algorithms and AI-generated mnemonics to accelerate medical terminology mastery.",
         url: "#",
-        color: "linear-gradient(135deg, #a18cd1, #fbc2eb)"
+        color: "linear-gradient(135deg, #a18cd1, #fbc2eb)",
+        isAI: true
     },
     {
         id: 48,
